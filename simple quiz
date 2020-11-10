@@ -1,0 +1,10 @@
+class Square:
+    sideCount = 0
+    
+    def _init_(self, side):
+        self.side = side;
+        Square.sideCount += 1
+    
+    def setSide(self):
+        print("The side value %d ", Square.sideCount)
+    
